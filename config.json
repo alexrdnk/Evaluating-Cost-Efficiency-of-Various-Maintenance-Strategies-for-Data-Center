@@ -1,0 +1,76 @@
+{
+    "time_period_hours": 8760,
+    "weibull_shape": 1.5,
+    "currency": "PLN",
+    "servers": [
+        {
+            "id": 1,
+            "server_repair_cost_PLN": 3500.0,
+            "failure_rate": 0.0005,
+            "maintenance_cost_per_hour_PLN": 9.0,
+            "disks": [
+                {
+                    "repair_cost_PLN": 2000.0,
+                    "lost_revenue_per_hour_PLN": 150.0,
+                    "failure_rate": 0.001
+                },
+                {
+                    "repair_cost_PLN": 2100.0,
+                    "lost_revenue_per_hour_PLN": 160.0,
+                    "failure_rate": 0.0012
+                },
+                {
+                    "repair_cost_PLN": 1900.0,
+                    "lost_revenue_per_hour_PLN": 180.0,
+                    "failure_rate": 0.0015
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "server_repair_cost_PLN": 4000.0,
+            "failure_rate": 0.0006,
+            "maintenance_cost_per_hour_PLN": 12.0,
+            "disks": [
+                {
+                    "repair_cost_PLN": 2200.0,
+                    "lost_revenue_per_hour_PLN": 170.0,
+                    "failure_rate": 0.0013
+                },
+                {
+                    "repair_cost_PLN": 2000.0,
+                    "lost_revenue_per_hour_PLN": 150.0,
+                    "failure_rate": 0.0011
+                },
+                {
+                    "repair_cost_PLN": 2300.0,
+                    "lost_revenue_per_hour_PLN": 200.0,
+                    "failure_rate": 0.0014
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "server_repair_cost_PLN": 4200.0,
+            "failure_rate": 0.00055,
+            "maintenance_cost_per_hour_PLN": 10.0,
+            "disks": [
+                {
+                    "repair_cost_PLN": 2050.0,
+                    "lost_revenue_per_hour_PLN": 155.0,
+                    "failure_rate": 0.00125
+                },
+                {
+                    "repair_cost_PLN": 2150.0,
+                    "lost_revenue_per_hour_PLN": 160.0,
+                    "failure_rate": 0.0013
+                },
+                {
+                    "repair_cost_PLN": 1950.0,
+                    "lost_revenue_per_hour_PLN": 175.0,
+                    "failure_rate": 0.0016
+                }
+            ]
+        }
+    ]
+}
