@@ -21,13 +21,6 @@ The **Data Center Maintenance Simulator** is a Python-based tool designed to ana
 
 ## 🚀 Getting Started
 
-### Prerequisites
-Ensure you have Python installed (recommended version: 3.8+). Install the required dependencies using:
-
-```bash
-pip install -r requirements.txt
-```
-
 ### Configuration
 
 The simulator relies on a JSON configuration file (`config.json`) to define key simulation parameters, including:
@@ -89,13 +82,10 @@ The simulator follows a structured approach to evaluate maintenance strategies:
 
 ## 🔧 Future Improvements
 
-- Support for additional failure models (e.g., Weibull distribution for more accurate failure rate estimation).
+- Optimization of existing Weibull distribution implementation for improved accuracy and efficiency.
 - Implementation of machine learning techniques for predictive maintenance optimization.
 - Enhancements in reporting and visualization tools for deeper analysis.
 
 ## 🤝 Developer
 
 - **Oleksandr Radionenko**
-
-For inquiries or contributions, please feel free to reach out.
-
